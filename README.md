@@ -1,2 +1,2 @@
 # netty-study
-learn netty
+Some netty demo.
