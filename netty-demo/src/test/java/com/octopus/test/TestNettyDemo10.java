@@ -32,7 +32,7 @@ public class TestNettyDemo10 {
                     //channel 可读可写
                     // 服务端向客户端写数据
                     StringBuilder sb = new StringBuilder();
-                    for (int i = 0; i < 3000000; i++) {
+                    for (int i = 0; i < 30000000; i++) {
                         sb.append("a");
                     }
                     ByteBuffer buffer = StandardCharsets.UTF_8.encode(sb.toString());
