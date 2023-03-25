@@ -12,8 +12,8 @@ public class TestNettyDemo7Client {
         SocketChannel socketChannel = SocketChannel.open();
         socketChannel.connect(new InetSocketAddress("localhost", 8081));
         System.out.println("waiting...");
-        socketChannel.write(StandardCharsets.UTF_8.encode("hahaha\nworld\nyuqinim\n"));
-        socketChannel.write(StandardCharsets.UTF_8.encode("my name is song yu qi, i am beautiful!\n"));
+        // socketChannel.write(StandardCharsets.UTF_8.encode("hahaha\nworld\nyuqinim\n"));
+        // socketChannel.write(StandardCharsets.UTF_8.encode("my name is song yu qi, i am beautiful!\n"));
         System.in.read();
     }
 }
